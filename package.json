@@ -1,0 +1,31 @@
+{
+  "name": "sql-tao",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generate.js",
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore .",
+    "script": "script.bat && npm run generate",
+    "generate": "node generate.js",
+    "create": "create.bat"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bernardoadc/SQLTao.git"
+  },
+  "author": "Bernardo A. Dal Corno",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "mkdirp": "^1.0.4",
+    "schemazen": "^1.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
