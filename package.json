@@ -21,6 +21,7 @@
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.0",
+    "from-env": "^1.1.4",
     "mkdirp": "^1.0.4",
     "schemazen": "^1.4.0"
   },
