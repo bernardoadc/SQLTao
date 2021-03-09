@@ -1,0 +1,2 @@
+call defs.bat
+SchemaZen.exe compare --source "server=%DEV_SERVER%; database=%DEV_DB%; Integrated Security=yes; Uid=auth_windows;" --target "server=%PROD_SERVER%; database=%PROD_DB%; Integrated Security=yes; Uid=auth_windows;" --outFile "%~dp0/extra/diffs/devVsProd.sql"

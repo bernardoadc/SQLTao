@@ -1,2 +1,3 @@
 node_modules/
-SQLExportedDB/create/props.sql
+extra/generated/props.sql
+extra/generated/sync.sql

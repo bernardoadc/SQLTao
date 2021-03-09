@@ -5,9 +5,13 @@
   "main": "generate.js",
   "scripts": {
     "lint": "eslint --ignore-path .gitignore .",
-    "script": "script.bat && npm run generate",
-    "generate": "node generate.js",
-    "create": "create.bat"
+    "script": "call scripts/script.bat",
+    "generate": "node scripts/generate.js",
+    "create": "call scripts/create.bat",
+    "update": "call scripts/update.bat",
+    "sync": "call scripts/sync.bat",
+    "compare": "call scripts/compare.bat",
+    "replicate": "call scripts/replicate.bat"
   },
   "repository": {
     "type": "git",
